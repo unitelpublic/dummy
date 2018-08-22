@@ -49,6 +49,32 @@
   	"value":2000,
   	"description": "Test"
 	}
-	
-{ "result_desc": ERROR MESSAGE, "result_code": ERR, "result_reason": ERROR }
-{ "result_reason": "SUCCESS", "result_code": 0 }
+# Дата
+## Дата хэмжээг нэмэх
+	URL: http//{domain}:{port}/data/add
+	method: POST
+	body: {
+ 	"phoneno":"88123456",
+  	"value":2000,
+	"type":"MB"
+  	"description": "Test"
+	}
+## Дата хэмжээг хасах
+	URL: http//{domain}:{port}/data/deduct
+	method: POST
+	body: {
+ 	"phoneno":"88123456",
+  	"value":2000,
+	"type":"MB"
+  	"description": "Test"
+	}
+## Дата хэмжээг тохируулах
+	URL: http//{domain}:{port}/data/set
+	method: POST
+	body: {
+ 	"phoneno":"88123456",
+  	"value":2000,
+	"type":"MB"
+  	"description": "Test"
+	}
+
