@@ -1,4 +1,7 @@
-# dummy
+# Юнител API жагсаалт & тайлбар
+1. Нэгж 
+	* Нэгж нэмэх
+	* Нэгж хасах
 1. Negj nemdeg - add-unit
 2. Negj hasdag - deduct-unit
 3. Data erh nemdeg - add-data - by MB, GB, KB
