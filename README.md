@@ -24,6 +24,10 @@
 6. Цэнэглэлт
 	* Хэрэглэгчийн дансыг цэнэглэх 
 
-
+# Нэгж
+	## Нэгжийн хэмжээг нэмэх
+	URL: http//{domain}:{port}/data/add
+	method: POST
+	
 { "result_desc": ERROR MESSAGE, "result_code": ERR, "result_reason": ERROR }
 { "result_reason": "SUCCESS", "result_code": 0 }
