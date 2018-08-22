@@ -25,9 +25,30 @@
 	* Хэрэглэгчийн дансыг цэнэглэх 
 
 # Нэгж
-	## Нэгжийн хэмжээг нэмэх
-	URL: http//{domain}:{port}/data/add
+## Нэгжийн хэмжээг нэмэх
+	URL: http//{domain}:{port}/unit/add
 	method: POST
+	body: {
+ 	"phoneno":"88123456",
+  	"value":2000,
+  	"description": "Test"
+	}
+## Нэгжийн хэмжээг хасах
+	URL: http//{domain}:{port}/unit/deduct
+	method: POST
+	body: {
+ 	"phoneno":"88123456",
+  	"value":2000,
+  	"description": "Test"
+	}
+## Нэгжийн хэмжээг тохируулах
+	URL: http//{domain}:{port}/unit/set
+	method: POST
+	body: {
+ 	"phoneno":"88123456",
+  	"value":2000,
+  	"description": "Test"
+	}
 	
 { "result_desc": ERROR MESSAGE, "result_code": ERR, "result_reason": ERROR }
 { "result_reason": "SUCCESS", "result_code": 0 }
