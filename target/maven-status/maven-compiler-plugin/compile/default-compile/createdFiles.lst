@@ -1,0 +1,8 @@
+mn/unitel/dummy/services/UserDatabase.class
+mn/unitel/dummy/services/DataService.class
+mn/unitel/dummy/services/ServerResponse.class
+mn/unitel/dummy/services/User.class
+mn/unitel/dummy/services/Counter.class
+mn/unitel/dummy/services/UserService.class
+org/netbeans/rest/application/config/ApplicationConfig.class
+mn/unitel/dummy/services/SecurityInterceptor.class
