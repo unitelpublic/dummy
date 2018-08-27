@@ -137,3 +137,13 @@
  	"msisdn":"88123456",
   	"content": "Test"
 	}
+# Цэнэглэх
+	URL: http//{domain}:{port}/recharge
+	method: POST
+	body: {
+	"msisdn":"88112311",
+	"description":"bla",
+	"amount":1 , 
+	"type":"web"
+	}
+	
