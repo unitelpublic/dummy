@@ -105,7 +105,7 @@
 	"type":"min"
   	"description": "Test"
 	}
-# Яриа
+# Мессеж
 ## Мессеж хэмжээг нэмэх
 	URL: http//{domain}:{port}/sms/add
 	method: POST
@@ -129,4 +129,11 @@
  	"msisdn":"88123456",
   	"value":2000,
   	"description": "Test"
+	}
+## Мессеж илгээх
+	URL: http//{domain}:{port}/sms/submit
+	method: POST
+	body: {
+ 	"msisdn":"88123456",
+  	"content": "Test"
 	}
