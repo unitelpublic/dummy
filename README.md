@@ -30,7 +30,7 @@
 	method: POST
 	body: {
  	"msisdn":"88123456",
-  	"value":2000,
+  	"amount":2000,
   	"description": "Test"
 	}
 ## Нэгжийн хэмжээг хасах
@@ -38,7 +38,7 @@
 	method: POST
 	body: {
  	"msisdn":"88123456",
-  	"value":2000,
+  	"amount":2000,
   	"description": "Test"
 	}
 ## Нэгжийн хэмжээг тохируулах
@@ -46,7 +46,7 @@
 	method: POST
 	body: {
  	"msisdn":"88123456",
-  	"value":2000,
+  	"amount":2000,
   	"description": "Test"
 	}
 # Дата
@@ -55,7 +55,7 @@
 	method: POST
 	body: {
  	"msisdn":"88123456",
-  	"value":2000,
+  	"amount":2000,
 	"type":"MB"
   	"description": "Test"
 	}
@@ -64,7 +64,7 @@
 	method: POST
 	body: {
  	"msisdn":"88123456",
-  	"value":2000,
+  	"amount":2000,
 	"type":"MB"
   	"description": "Test"
 	}
@@ -73,7 +73,7 @@
 	method: POST
 	body: {
  	"msisdn":"88123456",
-  	"value":2000,
+  	"amount":2000,
 	"type":"MB"
   	"description": "Test"
 	}
@@ -83,7 +83,7 @@
 	method: POST
 	body: {
  	"msisdn":"88123456",
-  	"value":2000,
+  	"amount":2000,
 	"type":"min"
   	"description": "Test"
 	}
@@ -92,7 +92,7 @@
 	method: POST
 	body: {
  	"msisdn":"88123456",
-  	"value":2000,
+  	"amount":2000,
 	"type":"min"
   	"description": "Test"
 	}
@@ -101,7 +101,7 @@
 	method: POST
 	body: {
  	"msisdn":"88123456",
-  	"value":2000,
+  	"amount":2000,
 	"type":"min"
   	"description": "Test"
 	}
@@ -111,7 +111,7 @@
 	method: POST
 	body: {
  	"msisdn":"88123456",
-  	"value":2000,
+  	"amount":2000,
   	"description": "Test"
 	}
 ## Мессеж хэмжээг хасах
@@ -119,7 +119,7 @@
 	method: POST
 	body: {
  	"msisdn":"88123456",
-  	"value":2000,
+  	"amount":2000,
   	"description": "Test"
 	}
 ## Мессеж хэмжээг тохируулах
@@ -127,7 +127,7 @@
 	method: POST
 	body: {
  	"msisdn":"88123456",
-  	"value":2000,
+  	"amount":2000,
   	"description": "Test"
 	}
 ## Мессеж илгээх
@@ -146,4 +146,38 @@
 	"amount":1 , 
 	"type":"web"
 	}
+#  PARAMETERS
+	msisdn - утасны дугаар 89,88,86,80 -р эхэлсэн 8 оронтой 
+	amount - long төрөлтэй бүхэл тоо
+	description -тайлбар
+	type - хэмжих нэгж
+	   -- ДАТА
+	      * gb
+	      * mb
+	      * kb
+	      * byte
+	   -- Яриа
+	        * min - минут
+	        * sec - секунд
+	 channel - борлуулалтын суваг
+	 	* WEB
+		* ATM
+		* CARD
+		* APP
+		* BANK
+		* DEALER
+		* OTHER
+	
+
+# Амжилттай хариу
+	{
+	"result": "SUCCESS",
+	"description": ""
+	}
+# Амжилтгүй хариу
+	{
+	"result": "FAIL",
+	"description": "invalid data type"
+	}
+	
 	
