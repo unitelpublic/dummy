@@ -29,7 +29,7 @@
 	URL: http//{domain}:{port}/unit/add
 	method: POST
 	body: {
- 	"phoneno":"88123456",
+ 	"msisdn":"88123456",
   	"value":2000,
   	"description": "Test"
 	}
@@ -37,7 +37,7 @@
 	URL: http//{domain}:{port}/unit/deduct
 	method: POST
 	body: {
- 	"phoneno":"88123456",
+ 	"msisdn":"88123456",
   	"value":2000,
   	"description": "Test"
 	}
@@ -45,7 +45,7 @@
 	URL: http//{domain}:{port}/unit/set
 	method: POST
 	body: {
- 	"phoneno":"88123456",
+ 	"msisdn":"88123456",
   	"value":2000,
   	"description": "Test"
 	}
@@ -54,7 +54,7 @@
 	URL: http//{domain}:{port}/data/add
 	method: POST
 	body: {
- 	"phoneno":"88123456",
+ 	"msisdn":"88123456",
   	"value":2000,
 	"type":"MB"
   	"description": "Test"
@@ -63,7 +63,7 @@
 	URL: http//{domain}:{port}/data/deduct
 	method: POST
 	body: {
- 	"phoneno":"88123456",
+ 	"msisdn":"88123456",
   	"value":2000,
 	"type":"MB"
   	"description": "Test"
@@ -72,9 +72,61 @@
 	URL: http//{domain}:{port}/data/set
 	method: POST
 	body: {
- 	"phoneno":"88123456",
+ 	"msisdn":"88123456",
   	"value":2000,
 	"type":"MB"
   	"description": "Test"
 	}
-
+# Яриа
+## Ярианы эрх нэмэх
+	URL: http//{domain}:{port}/call/add
+	method: POST
+	body: {
+ 	"msisdn":"88123456",
+  	"value":2000,
+	"type":"min"
+  	"description": "Test"
+	}
+## Ярианы эрх  хасах
+	URL: http//{domain}:{port}/call/add
+	method: POST
+	body: {
+ 	"msisdn":"88123456",
+  	"value":2000,
+	"type":"min"
+  	"description": "Test"
+	}
+## Ярианы эрх  тохируулах
+	URL: http//{domain}:{port}/call/add
+	method: POST
+	body: {
+ 	"msisdn":"88123456",
+  	"value":2000,
+	"type":"min"
+  	"description": "Test"
+	}
+# Яриа
+## Мессеж хэмжээг нэмэх
+	URL: http//{domain}:{port}/sms/add
+	method: POST
+	body: {
+ 	"msisdn":"88123456",
+  	"value":2000,
+  	"description": "Test"
+	}
+## Мессеж хэмжээг хасах
+	URL: http//{domain}:{port}/sms/deduct
+	method: POST
+	body: {
+ 	"msisdn":"88123456",
+  	"value":2000,
+  	"description": "Test"
+	}
+## Мессеж хэмжээг тохируулах
+	URL: http//{domain}:{port}/sms/set
+	method: POST
+	body: {
+ 	"msisdn":"88123456",
+  	"value":2000,
+  	"description": "Test"
+	}
