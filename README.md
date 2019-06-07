@@ -71,7 +71,39 @@ display texts from options
 ###### STEP 2
 get input from user
 ##### STEP 3
-get the short code from "next"(next attribute from option) call REST API again  
+get the short code from "next"(next attribute from option) call REST API again
+###### EXAMPLE 
+if response is 
+```xml
+<response>
+    <display id="*1414*1#" type="input">
+        <options>
+            <option order="1" key="1" text="1.Bagtsuudiin taniltsuulga" next="*1414*1*1#" />
+            <option order="2" key="2" text="2.Bagts hoorond shiljih" next="*1414*1*2#" />
+            <option order="3" key="3" text="3.Daraa tulburt uilchilgee ruu shiljih" next="*1414*1*3#" />
+            <option order="4" key="0" text="0.Butsah" next="*1414#" />
+        </options>
+    </display>
+    <result>SUCCESS</result>
+</response>
+``` 
+if user press 0 then your payload is 
+```xml
+<Payload>
+<msisdn>89110437</msisdn>
+<ussdCode>*1414#</ussdCode>
+<sessionId>111</sessionId>
+</Payload>
+```
+if user press 1 then your payload is 
+```
+<Payload>
+<msisdn>89110437</msisdn>
+<ussdCode>*1414*1*1#</ussdCode>
+<sessionId>111</sessionId>
+</Payload>
+```
+
 ### In case of "final"
 if type is final , show texts from options and terminate session. for example 
 ```xml
