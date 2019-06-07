@@ -62,9 +62,13 @@
 |key|String|M|---    | user press key|
 |text|String|M|---    |text of option|
 |next|String|M|---    |next ussd code|
-
-Display object has following 2 types   "input" and "final".If type is input then display text from options field 
-
+Display object has following 2 types input and final.
+###### STEP 1
+display texts from options
+###### STEP 2
+get input from user
+##### STEP 3
+get the short code from "next"(next attribute from option) call REST API again  
 
 if type is final , show texts from options and terminate session. for example 
 ```xml
