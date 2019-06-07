@@ -63,8 +63,19 @@
 |text|String|M|---    |text of option|
 |next|String|M|---    |next ussd code|
 
-Display object has following 2 types   "input" and "final".If type is input then 
+Display object has following 2 types   "input" and "final".If type is input then display text from options field 
 
 
-if type is final ----------------------------------------
+if type is final , show texts from options and terminate session. for example 
+```xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<response>
+<display id="*1414*3#" type="final">
+<options>
+<option order="1" key="ok" text="Tand 46570 TG, 384.10 MB data. " next="null" />
+</options>
+</display>
+<result>SUCCESS</result>
+ </response>
+```
 
