@@ -44,3 +44,12 @@
 |display|Display|M|---    |UNITEL DEFINED TYPE|
 |message|String|O|---    |failure message|
 
+
+### Display Type
+
+|Attribute|Type|Required|Default|Description|
+|---     |---       |---     |---    |---        |
+|id|String|M|---    |id of display object|
+|type|String|M|---    |input/type|
+|options|List of option |M|---    |unitel defined type|
+
