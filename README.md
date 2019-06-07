@@ -70,12 +70,12 @@ if type is final , show texts from options and terminate session. for example
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <response>
-<display id="*1414*3#" type="final">
-<options>
-<option order="1" key="ok" text="Tand 46570 TG, 384.10 MB data. " next="null" />
-</options>
-</display>
-<result>SUCCESS</result>
- </response>
+    <display id="*1414*3#" type="final">
+        <options>
+            <option order="1" key="ok" text="Tand 46570 TG, 384.10 MB data. " next="null" />
+        </options>
+    </display>
+    <result>SUCCESS</result>
+</response>
 ```
 
