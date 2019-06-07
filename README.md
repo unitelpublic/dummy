@@ -12,3 +12,5 @@
 |Attribute|Type|Required|Default|Description|
 |---     |---       |---     |---    |---        |
 |msisdn|String|M|---    |msisdn without country code|
+|ussdCode|String|M|---    |ussd short code|
+|sessionId|String|M|---    |current ussd session id|
