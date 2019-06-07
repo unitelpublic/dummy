@@ -90,17 +90,17 @@ if response is
 if user press 0 then your payload is 
 ```xml
 <Payload>
-<msisdn>89110437</msisdn>
-<ussdCode>*1414#</ussdCode>
-<sessionId>111</sessionId>
+    <msisdn>89110437</msisdn>
+    <ussdCode>*1414#</ussdCode>
+    <sessionId>111</sessionId>
 </Payload>
 ```
 if user press 1 then your payload is 
-```
+```xml
 <Payload>
-<msisdn>89110437</msisdn>
-<ussdCode>*1414*1*1#</ussdCode>
-<sessionId>111</sessionId>
+    <msisdn>89110437</msisdn>
+    <ussdCode>*1414*1*1#</ussdCode>
+    <sessionId>111</sessionId>
 </Payload>
 ```
 
