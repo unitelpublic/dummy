@@ -50,8 +50,10 @@
 |Attribute|Type|Required|Default|Description|
 |---     |---       |---     |---    |---        |
 |id|String|M|---    |id of display object|
-|type|String|M|---    |input/type|
+|type|String|M|---    |input/final|
 |options|List of option |M|---    |unitel defined type|
+
+
 
 ### Option
  |Attribute|Type|Required|Default|Description|
@@ -61,4 +63,8 @@
 |text|String|M|---    |text of option|
 |next|String|M|---    |next ussd code|
 
+Display object has following 2 types   "input" and "final".If type is input then 
+
+
+if type is final ----------------------------------------
 
