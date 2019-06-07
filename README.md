@@ -53,3 +53,12 @@
 |type|String|M|---    |input/type|
 |options|List of option |M|---    |unitel defined type|
 
+### Option
+ |Attribute|Type|Required|Default|Description|
+|---     |---       |---     |---    |---        |
+|order|String|M|---    |order of option|
+|key|String|M|---    | user press key|
+|text|String|M|---    |text of option|
+|next|String|M|---    |next ussd code|
+
+
